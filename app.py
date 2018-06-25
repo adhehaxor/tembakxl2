@@ -30,7 +30,8 @@ def exec_menu(choice):
     return
 
 def menu_1():
-    print(".::Purchase Package Menu::.")
+    print(".::Tembak Paketan Xl::.")
+    print (".::Modified By Adhe::.")
     msisdn = str(input("Input your MSISDN >> "))
     passwd = str(input("Input your Password >> "))
     print(
