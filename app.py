@@ -7,7 +7,8 @@ from xlpy import *
 def main_menu():
     clear()
     print(
-        "   .::XL - Direct Purchase Package::." +
+        "   .::XL-Tembak Paket::." +
+        "   .::Modified Adhey™::." +
         "\nPlease choose the menu you want to start:"
         "\n[1] Purchase Package" + 
         "\n[2] Request Password"  +
@@ -30,8 +31,7 @@ def exec_menu(choice):
     return
 
 def menu_1():
-    print(".::Tembak Paketan Xl::.")
-    print (".::Modified By Adhe::.")
+    print(".::Purchase Package Menu::.")
     msisdn = str(input("Input your MSISDN >> "))
     passwd = str(input("Input your Password >> "))
     print(
